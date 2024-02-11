@@ -1,0 +1,45 @@
+/*Elias Kinard*/
+body {
+    background-color: black;
+    text-align: center;
+    font-family: 'Courier New';
+}
+
+h1 {
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+p {
+    color: white
+}
+
+a{
+    color: white;
+}
+
+form{
+    color:white;
+}
+
+button {
+    background-color: rgb(250, 165, 9);
+    border: none;
+    color: rgb(4, 22, 0);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: rgb(3, 73, 3);
+    color: white;
+}
+
+img{
+    padding: 25px;
+}

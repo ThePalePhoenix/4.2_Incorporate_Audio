@@ -1,0 +1,49 @@
+<!--Elias Kinard-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Here we link in our stylesheet and the javascript file-->
+    <script src="strings.js" defer></script>
+    <link rel="stylesheet" href="strings.css"></link>
+    <title>Palindrome Checker</title>
+</head>
+<body>
+    <!--An introduction to the page-->
+    <h1>Palindrome Checker</h1>
+    <p>This is a simple program that will check to see if an entered string is a palindrome.</p>
+    <p>A palindrome is a word or phrase that is spelled the same forward and backward.</p>
+    <p>You can use the button below to check a string to see if it is a palindrome, but only one at a time.</p>
+
+    <!--This button is meant to allow the user to check palindromes even after the initial prompt has been dismissed.-->
+    <button type="button" onclick="checkPalindrome(prompt('Please enter a Palindrome'))">Check a Palindrome</button>
+    <br>
+    <!--An example image of a palindrome. Bonus: It's Cute!-->
+    <img src="tacocat.webp">
+    <br>
+    <hr>
+    <!--A form to acquire data for checking; refer to "strings.js" for the function that does the checking.-->
+    <form id="secretform">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="zip">Zip Code:</label>
+        <input type="text" id="zip" name="zip"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <hr>
+    <!--This is the secret, a simple link. To a certain video. Wonder what...-->
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" id="secret" target="_blank"></a>
+    <br>
+    <hr>
+    <!--Audio for background music. Unfortunately, the autoplay isn't working for some reason.-->
+    <p>Here is some soothing water droplet sounds for you, while you navigate the page.</p>
+    <audio autoplay controls>
+        <source src="water-drops-simion-daniel.wav">
+        Your browser does not support the audio tag
+    </audio>
+</body>
+</html>
